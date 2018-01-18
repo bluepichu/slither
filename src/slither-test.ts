@@ -469,8 +469,8 @@ class Inspector {
 
 		let size = Math.floor((cols - 3) / 2);
 
-		let expectedLines = expected.split("\n").slice(0, 20);
-		let actualLines = actual.split("\n").slice(0, 20);
+		let expectedLines = expected.split("\n").slice(0, 30);
+		let actualLines = actual.split("\n").slice(0, 30);
 
 		expectedLines = formatDisplayLines(expectedLines, size);
 		actualLines = formatDisplayLines(actualLines, size);
